@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 #
-# Copyright (c) 2022-2023 NVIDIA CORPORATION & AFFILIATES.
+# Copyright (c) 2022-2022 NVIDIA CORPORATION & AFFILIATES.
 # Apache-2.0
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -56,7 +56,7 @@ HASH_CALC_INPUT_FILE = "/tmp/hash_calculator_input.json"
 HASH_CALC_OUTPUT_FILE = "/tmp/hash_calculator_output.json"
 
 def exec_cmd(cmd):
-    """ Execute shell command """
+    """ Execute shell command blabla"""
     return subprocess.check_output(cmd, stderr=subprocess.STDOUT, shell=False).decode("utf-8")
 
 def is_mac_valid(mac):
